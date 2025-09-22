@@ -27,3 +27,19 @@ python3 netrecon.py 127.0.0.1 --ports 22,80,443 --json out.json
 
 # Scan a remote host (permission required!)
 python3 netrecon.py 192.0.2.5 --ports 1-1000 --force
+
+---
+
+## ⚙️ Configuration / Optional Modifications
+
+Port range: --ports
+
+Number of threads: --workers N
+
+Connection timeout: --timeout 0.5
+
+JSON report: --json out.json
+
+To unlock full functionality on remote hosts, enable --force and configure firewall or permissions on the target machine if necessary.
+
+---
